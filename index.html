@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhammed Fatih Çınar - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3363T8NKFB"></script>
@@ -18,26 +19,96 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container" data-aos="fade-down">
         <h1>Muhammed Fatih Çınar</h1>
         <p>Akdeniz Üniversitesi - Bilgisayar Mühendisliği</p>
-        <p>Talya Bilişim | Stajyer</p>
+        <p>Frontend Developer Intern @ Talya Bilişim</p>
         <p class="tagline">Software Developer <span>||</span> Lifelong Learner</p>
     </header>
 
-    <main class="container project-section">
-        <h2>SPA Rezervasyon Platformu</h2>
-        <p class="description">
-            <strong>Açıklama:</strong> Hizmet seçimi, uzman atama ve randevu takvimi içeren bir rezervasyon altyapısı.
-        </p>
-        <p class="technologies">
-            <strong>Kullanılacak Teknolojiler:</strong> Angular, Node.js, PostgreSQL / Supabase
-        </p>
+    <main class="container">
+        <!-- Projeler -->
+        <section class="project-section" data-aos="fade-up">
+            <h2>Projeler</h2>
+
+            <div>
+                <h3>Logistfy</h3>
+                <p>Web tabanlı bir lojistik platformudur. React + Redux Toolkit ile geliştirildi, Google Maps API
+                    kullanıldı.</p>
+                <a href="https://graduation-project-hazel.vercel.app" target="_blank">Projeyi Görüntüle</a>
+            </div>
+
+            <div>
+                <h3>FinTrack</h3>
+                <p>Spring Boot ile geliştirilmiş kişisel finans takip uygulaması. Clean Architecture, DDD, Rich Domain
+                    Model kullanıldı.</p>
+            </div>
+
+            <div>
+                <h3>Classroom Attendance System</h3>
+                <p>Python, OpenCV, face_recognition, ASP.NET Core ile geliştirilen gerçek zamanlı yüz tanıma sistemi.
+                </p>
+            </div>
+
+            <div>
+                <h3>Enhanced Budget Tracker</h3>
+                <p>7 mikroservisten oluşan Docker, RabbitMQ, Redis kullanılan modern finans uygulaması.</p>
+            </div>
+
+            <div>
+                <h3>Doğuş Blog</h3>
+                <p>MVC yapısı ile geliştirilen blog platformu.</p>
+            </div>
+        </section>
+
+        <!-- Yetenekler -->
+        <section data-aos="fade-up">
+            <h2>Yetenekler</h2>
+            <ul>
+                <li><strong>Diller & Frameworkler:</strong> Java, C#, Python, JavaScript, TypeScript, HTML, React,
+                    Angular, .NET, Spring Boot</li>
+                <li><strong>Veritabanları:</strong> MongoDB, MySQL, MSSQL, CouchDB</li>
+                <li><strong>Mimari & İlkeler:</strong> Clean Architecture, SOLID, DDD</li>
+                <li><strong>Araçlar & Platformlar:</strong> Git, Docker, RabbitMQ, Redis</li>
+            </ul>
+        </section>
+
+        <!-- Eğitim -->
+        <section data-aos="fade-up">
+            <h2>Eğitim</h2>
+            <p><strong>Bilgisayar Mühendisliği</strong><br>Akdeniz Üniversitesi, Antalya<br>2021 - Beklenen Mezuniyet:
+                Ağustos 2025</p>
+        </section>
+
+        <!-- Deneyim -->
+        <section data-aos="fade-up">
+            <h2>İş Deneyimi</h2>
+            <p><strong>Frontend Developer Intern</strong><br>Talya Bilişim, Antalya<br>Temmuz 2024 – Ağustos 2024</p>
+            <ul>
+                <li>Angular ile UI sayfaları geliştirme</li>
+                <li>Git versiyon kontrolü, Docker kullanımı</li>
+                <li>Apache CouchDB ile çalışıldı</li>
+            </ul>
+        </section>
+
+        <!-- İletişim -->
+        <section data-aos="fade-up">
+            <h2>İletişim</h2>
+            <p><strong>Email:</strong> muhammedfatihcinar00@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/fatih045" target="_blank">fatih045</a></p>
+            <p><strong>LinkedIn:</strong> <a
+                    href="https://www.linkedin.com/in/muhammed-fatih-%C3%A7%C4%B1nar-4674b3289/"
+                    target="_blank">Muhammed Fatih Çınar</a></p>
+            <p><strong>Konum:</strong> Konyaaltı, Antalya</p>
+        </section>
     </main>
 
-    <footer class="container footer">
+    <footer class="container footer" data-aos="fade-up">
         <p>&copy; 2026 Muhammed Fatih Çınar</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
