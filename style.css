@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+header .tagline {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #6c757d;
+}
+
+header .tagline span {
+    color: #adb5bd;
+    margin: 0 0.3rem;
+}
+
+.project-section h2 {
+    font-size: 1.5rem;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.project-section .description,
+.project-section .technologies {
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #868e96;
+    border-top: 1px solid #dee2e6;
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
